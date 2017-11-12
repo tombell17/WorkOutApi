@@ -25,7 +25,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "paramaters": {
+      "type": "hasMany",
+      "model": "Parameter",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

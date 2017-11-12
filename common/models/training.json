@@ -19,17 +19,30 @@
       "type": "date",
       "required": true
     },
-    "status": {
-      "type": "string",
-      "required": true
-    },
     "lastUpdated": {
       "type": "date",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "exercises": {
+      "type": "hasMany",
+      "model": "Exercise",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "status": {
+      "type": "hasOne",
+      "model": "Status",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
