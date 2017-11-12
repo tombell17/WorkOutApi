@@ -2,5 +2,9 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "workoutdb": {
+    "url": "mongodb://fitAdmin:<PASSWORD>@workoutcluster-shard-00-00-rqllr.mongodb.net:27017,workoutcluster-shard-00-01-rqllr.mongodb.net:27017,workoutcluster-shard-00-02-rqllr.mongodb.net:27017/test?ssl=true&replicaSet=WorkoutCluster-shard-0&authSource=admin",
+    "connector": "mongodb"
   }
 }
