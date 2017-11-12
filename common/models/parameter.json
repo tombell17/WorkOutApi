@@ -7,15 +7,15 @@
     "validateUpsert": true
   },
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "MeasurementUnit": {
+    "measurementUnit": {
       "type": "string",
       "required": true
     },
-    "Value": {
+    "value": {
       "type": "number",
       "required": true
     }

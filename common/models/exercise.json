@@ -7,20 +7,20 @@
     "validateUpsert": true
   },
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "string",
       "required": true
     },
-    "WeekDays": {
+    "weekDays": {
       "type": [
         "string"
       ]
     },
-    "DaysPerWeek": {
+    "daysPerWeek": {
       "type": "number"
     }
   },

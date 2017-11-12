@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "FinishDate": {
+    "finishDate": {
       "type": "date",
       "required": true
     }

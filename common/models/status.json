@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "Description": {
+    "description": {
       "type": "string",
       "required": true
     }

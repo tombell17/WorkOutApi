@@ -7,23 +7,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "StartDate": {
+    "startDate": {
       "type": "date",
       "required": true
     },
-    "FinishDate": {
+    "finishDate": {
       "type": "date",
       "required": true
     },
-    "Status": {
+    "status": {
       "type": "string",
       "required": true
     },
-    "LastUpdated": {
+    "lastUpdated": {
       "type": "date",
       "required": true
     }
