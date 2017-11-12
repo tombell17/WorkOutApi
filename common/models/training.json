@@ -1,0 +1,35 @@
+{
+  "name": "Training",
+  "plural": "Trainings",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "StartDate": {
+      "type": "date",
+      "required": true
+    },
+    "FinishDate": {
+      "type": "date",
+      "required": true
+    },
+    "Status": {
+      "type": "string",
+      "required": true
+    },
+    "LastUpdated": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

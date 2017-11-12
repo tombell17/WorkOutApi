@@ -14,25 +14,53 @@
     ]
   },
   "User": {
-    "dataSource": "workoutdb"
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "workoutdb",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "workoutdb",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "workoutdb",
+    "dataSource": "db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "workoutdb",
+    "dataSource": "db",
     "public": false
+  },
+  "ExerciseConfig": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ParameterConfig": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Exercise": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Parameter": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Training": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ExerciseHistory": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Status": {
+    "dataSource": "db",
+    "public": true
   }
 }
